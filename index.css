@@ -13,6 +13,8 @@
 .content{
     width: 90%;
     margin: auto;
+    position: relative;
+    z-index: 2;
 }
 .content .logo{
     width: 100px;
@@ -59,4 +61,21 @@
 }
 .btn2{
     float: right;
+}
+.sidebar{
+    width: 30%;
+    max-width: 550px;
+    height: 100%;
+    background:rgba(0,0,0,0.5);position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    backdrop-filter:blur(8px);
+}
+#menu{
+    width: 80px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
 }
