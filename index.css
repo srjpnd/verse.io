@@ -5,10 +5,58 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url("img/background.png");
-    position: relative;
-    box-sizing: border-box;
+    background-image: url(img/background.png);
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
+    position:relative;
+}
+.content{
+    width: 90%;
+    margin: auto;
+}
+.content .logo{
+    width: 100px;
+    margin-top: 40px;
+}
+.content hr{
+    max-width: 280px ;
+    height: 6px;
+    border: none;
+    background: #ffa1a1; 
+    margin-top: 8px;
+}
+.content h1{
+    font-size: 180px;
+    color: #cfcfcf;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+     line-height: 160px;
+}
+.content p{
+    max-width: 550px;
+    color:#919191;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.content .btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    color:#fff;
+    border-radius: 30px;
+    line-height: 1px;
+    margin-top: 10px;
+    display: inline-block;
+ }
+.content .btn:hover{
+    background: #ffa1a1;
+    border-color: #ffa1a1;
+    color: #000;
+    transition:0.5s;
+}
+.btn2{
+    float: right;
 }
